@@ -1,0 +1,55 @@
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* white color */
+  --clr-white: #fff;
+  /* font-family */
+  --ff-primary: "Roboto", sans-serif;
+  /* transition */
+  --transition: all 0.3s linear;
+  /* spacing */
+  --spacing: 0.1rem;
+  /* radius */
+  --radius: 0.25rem;
+  /* max-width */
+  --max-width: 1170px;
+  /* fixed-width */
+  --fixed-width: 620px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+#timestamp {
+  margin-top: 10rem;
+  font-size: 60px;
+  font-family: var(--ff-primary);
+}
+
+.clock {
+  text-align: center;
+}
+
+.btn {
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--clr-black);
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  font-weight: 200;
+  transition: var(--transition);
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  font-size: 0.6rem;
+  padding: 0.6rem 1rem;
+}
